@@ -1,7 +1,23 @@
+body {
+  background-color: blue;
+}
+
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+button {
+  display: inline-block;
+  background-color: lightblue;
+  padding: 5px;
+  cursor: pointer;
+}
+
+p {
+  padding: 15px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
