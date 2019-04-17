@@ -1,23 +1,7 @@
-body {
-  background-color: blue;
-}
+body { background-color: blue; }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+.container { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
 
-button {
-  display: inline-block;
-  background-color: lightblue;
-  padding: 5px;
-  cursor: pointer;
-}
+button { display: inline-block; background-color: lightblue; padding: 5px; cursor: pointer; }
 
-p {
-  padding: 15px;
-  color: white;
-}
-
-/*# sourceMappingURL=style.css.map */
+p { padding: 15px; color: white; }
