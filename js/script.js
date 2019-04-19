@@ -11,7 +11,7 @@ function getJoke() {
     xhr.addEventListener('load', function() {
     var response = JSON.parse(xhr.response);
         paragraph.innerHTML = response.value.joke;
-        return this.response || 'undefined';
+        return this.response || 'default';
     });
     xhr.send();
 }
