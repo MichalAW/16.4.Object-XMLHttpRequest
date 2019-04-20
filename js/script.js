@@ -10,8 +10,7 @@ function getJoke() {
     xhr.open('GET', url);
     xhr.addEventListener('load', function() {
     var response = JSON.parse(xhr.response);
-        paragraph.innerHTML = response.value.joke;
-        return this.response || 'default';
+        paragraph.innerHTML = response.value.joke || "default"; 
     });
     xhr.send();
 }
