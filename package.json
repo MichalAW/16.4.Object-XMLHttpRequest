@@ -1,5 +1,5 @@
 {
-  "name": "16.4.Object-XMLHttpRequest",
+  "name": "Object-XMLHttpRequest",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -21,15 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MichalAW/16.4.Object-XMLHttpRequest.git"
+    "url": "https://github.com/MichalAW/Object-XMLHttpRequest.git"
   },
   "keywords": [],
   "author": "MichalAW michal.wanta@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MichalAW/16.4.Object-XMLHttpRequest/issues"
+    "url": "https://github.com/MichalAW/Object-XMLHttpRequest/issues"
   },
-  "homepage": "https://github.com/MichalAW/16.4.Object-XMLHttpRequest#readme",
+  "homepage": "https://github.com/MichalAW/Object-XMLHttpRequest#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.3",
